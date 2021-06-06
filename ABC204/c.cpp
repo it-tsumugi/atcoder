@@ -4,8 +4,14 @@ using namespace std;
 typedef long long ll;
 
 int main(void){
-    int n;
-    cin >> n;
+    int N,M;
+    cin >> N >> M;
+    int A[N],B[M];
+    rep(i,M){
+        cin >> A[i];
+        cin >> B[i];
+    }
 
+    
     return 0;
 }

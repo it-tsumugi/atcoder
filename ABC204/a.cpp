@@ -4,8 +4,17 @@ using namespace std;
 typedef long long ll;
 
 int main(void){
-    int n;
-    cin >> n;
-
+    int x,y;
+    cin >> x >> y;
+    
+    int sum=x+y,ans;
+    switch(sum){
+        case 0 : ans=0; break;
+        case 1 : ans=2; break;
+        case 2 : ans=1; break;
+        case 3 : ans=0; break;
+        case 4 : ans=2; break;
+    }
+    cout << ans <<endl;
     return 0;
 }
