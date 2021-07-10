@@ -4,9 +4,12 @@ using namespace std;
 typedef long long ll;
 
 int main(){
-    ll a,b,c;
-	vector <ll> vec(3);
-	cin >> a >> b >> c;
+    int a,b;
+	cin >> a >> b;
+
+	int cnt=0;
+	for(int i=a;i<=b;i++)cnt++;
+	cout << cnt << endl;
 
 	return 0;	
 }
