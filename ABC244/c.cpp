@@ -14,10 +14,10 @@ int main(){
   rep(i,n+1){
     if(output >= 1 && output <= 2*n +1 ){
       memory.at(output-1) = 1;
-      cout << output << flush;
+      cout << output << endl;
     }
     else
-      cout <<"エラー" << flush;
+      cout <<"エラー" << endl;
     cin >> input ;
     if(input == 0) return 0;
     memory.at(input-1) = 1;
